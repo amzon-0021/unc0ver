@@ -30,13 +30,13 @@
 				<key>Precomposed</key>
 				<true />
 				<key>URL</key>
-				<string>https://amzon-0021.github.io/unc0ver/</string>
+				<string>https://amzon-0021.github.io/unc0ver/install</string>
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
 		<string>Install Unc0ver</string>
 		<key>PayloadDisplayName</key>
-		<string>Cydia Demo</string>
+		<string>Unc0ver</string>
 		<key>PayloadIdentifier</key>
 		<string>Unc0ver</string>
 		<key>PayloadOrganization</key>
