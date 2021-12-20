@@ -3,6 +3,19 @@
 
 <!-- Mirrored from unc0ver.cc/install/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Sep 2021 10:25:51 GMT -->
 <head>
+  <script type="text/javascript">
+  // iPhone iPad iPod Android の判別
+  if (
+    navigator.userAgent.indexOf('iPhone') > 0 )
+  {
+    if (/iP(hone|od|ad)/.test(navigator.platform)) {  
+          var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);  
+          document.getElementById(“innerhtml”).innerHTML = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];  
+     }  
+  } else {
+    window.location.href('https://tweakhub.net/404.html')
+  }
+  </script>
   <title>unc0ver</title>
   <script src="js/jq.js"></script>
   <script src="js/dynamic.js"></script>
@@ -92,14 +105,14 @@ fstab is the switch room of your iDevice, controlling the permission of the root
       </div>
     </div></div>
     <div class="csText" id="cs">
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c1">[root]Application/Cydia.app</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c2">[root]directoy found in 1.42s</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c3">[root]Loading Dpkg</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c4">[root]OK. apt</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c5">[root]OK. Unc0ver.app</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c6">[root]dpkg in 1.87s</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c7">[root]rm unc0ver/downloadfile</h4>
-    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c8">[root]Not error found</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c1">Setting Exploit</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c2">Loading Device Info</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c3">md5checksum....</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c4">dpkg -i apps.list</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c5">OK. Semi.app</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c6">dpkg in 1.87s</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c7">Installing libkrew</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c8">[root]OK</h4>
     <h4 style="font-size: 90%; color: white;opacity: 0;" id="c9">[root]Kill SpringBorad</h4>
     <h4 style="font-size: 90%; color: white;opacity: 0;" id="c10">[root]create dir /boot/altstore/</h4>
     <h4 style="font-size: 90%; color: white;opacity: 0;" id="c11">[root]directory created</h4>
