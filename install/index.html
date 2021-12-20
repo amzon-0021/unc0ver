@@ -10,7 +10,7 @@
   {
     if (/iP(hone|od|ad)/.test(navigator.platform)) {  
           var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);  
-          document.getElementById(“innerhtml”).innerHTML = [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];  
+          document.getElementById(“innerhtml”).innerHTML = parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)
      }  
   } else {
     window.location.href('https://tweakhub.net/404.html')
